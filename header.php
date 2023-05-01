@@ -177,7 +177,7 @@ session_start();
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
-								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
+								<font style="line-height:67px; font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
                                         Online Shop
                                     </font>
 									
