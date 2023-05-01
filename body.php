@@ -164,8 +164,10 @@
 									<a href='product.php?p=$pro_id'><div class='product-img'>
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
-											<span class='sale'>-30%</span>
 											<span class='new'>NEW</span>
+										</div>
+										<div class='product-pre'>
+										<span class='sale'>-30%</span>
 										</div>
 									</div></a>
 									<div class='product-body'>
