@@ -59,7 +59,7 @@ include "header.php";
 								include 'db.php';
 								$product_id = $_GET['p'];
 								
-								$sql = " SELECT * FROM products ";
+								// $sql = " SELECT * FROM products ";
 								$sql = " SELECT * FROM products WHERE product_id = $product_id";
 								if (!$con) {
 									die("Connection failed: " . mysqli_connect_error());
@@ -70,9 +70,6 @@ include "header.php";
 									while($row = mysqli_fetch_assoc($result)) 
 									{
 									echo '
-									
-                                    
-                                
                                 <div class="col-md-5 col-md-push-2">
                                 <div id="product-main-img">
                                     <div class="product-preview">
