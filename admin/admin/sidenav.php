@@ -40,7 +40,7 @@
         Tip 2: you can also add an image using data-image tag
     -->
             <div class="logo"><a href="index.php" class="simple-text logo-normal">
-                    <img src="./assets/img/capture.png" style="width: 150px;">
+                    <img src="./assets/img/logo.png" style="width: 150px; background-color:white;">
                 </a></div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
